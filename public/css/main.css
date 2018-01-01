@@ -267,11 +267,8 @@ body {
 
 #portfolio .block-heading h1 {
     color: rgb(0, 129, 129);
-	
 	font-weight: 400;
-	
     font-size: 55px;
-    font-family: 'Milonga', cursive;
 }
 
 .portfolio-item img {
@@ -355,6 +352,12 @@ body {
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
+.effect-zoe figcaption a{
+	text-decoration: none; 
+	margin-top: 50px; 
+	color:white;
+	font-size: 18px;
+}
 .grid  figcaption, .grid  figcaption > a{
 	position: absolute;
 	top: 0;
@@ -381,9 +384,9 @@ body {
 .effect-zoe p.icon-links a i
 {
 	display: inline-block;
-	padding: 30px 10px;
-	color: cyan;
-	font-size: 22px;
+	padding: 0px 0px;
+	color: white;
+	font-size: 20px;
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -412,10 +415,7 @@ body {
 } */
 #services .block-heading h1 {
     color: #fff;
-	
-    font-family: 'Milonga', cursive;
 	font-weight: 400;
-	
     font-size: 55px;
 	word-spacing: 5px;
 }
@@ -484,7 +484,6 @@ ul.numbersList span{
 #testimonials .block-heading h1
 {
 	color: rgb(0, 129, 129);
-	font-family: 'Milonga', cursive;
 	font-weight: 400;
 	font-size: 55px;
 }
@@ -530,7 +529,6 @@ ul.numbersList span{
 #contact .block-heading h1
 {
 	color: #fff;
-	font-family: 'Milonga', cursive;
 	font-weight: 400;
 	font-size: 55px;
 }
